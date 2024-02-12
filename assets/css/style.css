@@ -143,6 +143,10 @@ body { background: var(--white); }
   flex-direction: column;
   background-color: white;
 }
+
+/*-----------------------------------*\
+  #SPINNER
+\*-----------------------------------*/
 .text {
   color: #fff;
   font-family: Arial;

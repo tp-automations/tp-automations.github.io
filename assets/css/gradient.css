@@ -26,10 +26,10 @@ html, body {
     --color-bg2: rgb(31, 32, 36);
     --color1: 18, 113, 255;
     --color2: 221, 74, 255;
-    --color3: 100, 220, 255;
-    --color4: 236, 236, 236;
-    --color5: 2, 255, 247;
-    --color-interactive: 140, 100, 255;
+    --color3: 3, 30, 39;
+    --color4: 37, 9, 46;
+    --color5: 40, 67, 66;
+    --color-interactive: 36, 23, 72;
     --circle-size: 80%;
     --blending: hard-light;
   }
