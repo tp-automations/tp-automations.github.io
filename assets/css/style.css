@@ -307,7 +307,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background: var(--cultured);
+  background: url(/assets/images/herobg.png);
   padding-top: 130px;
   padding-bottom: var(--section-padding);
   min-height: 100vh;
@@ -430,7 +430,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .service {
-  background: var(--blue-ryb);
+  background: #0e0533;
   padding-block: var(--section-padding);
 }
 
