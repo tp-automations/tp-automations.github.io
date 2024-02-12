@@ -1,5 +1,12 @@
 
 document.addEventListener('DOMContentLoaded', () => {
+    "use strict";
+    const preloader = document.querySelector('#preloader');
+    const layout = document.querySelector('.page-layout');
+    window.addEventListener('load', () => {
+        preloader.remove();
+        layout.style.display = 'block';
+    });
     const interBubble = document.querySelector('.interactive');
     let curX = 0;
     let curY = 0;
