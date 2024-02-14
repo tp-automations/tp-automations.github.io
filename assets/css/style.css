@@ -230,7 +230,7 @@ body { background: var(--white); }
   color: var(--black-coral);
   font-size: var(--fs-4);
   line-height: 1.8;
-  margin-bottom: 15px;
+  margin-top: 1em;
 }
 
 .btn {
@@ -250,6 +250,7 @@ body { background: var(--white); }
   /* added by promise */
   color: #c2c2c2;
   background: var(--red-crayola);
+  margin-top: 4em;
 }
 
 .btn > ion-icon { font-size: 16px; }
@@ -261,13 +262,13 @@ body { background: var(--white); }
 }
 
 .btn-secondary {
-  background: var(--blue-ryb);
-  color: var(--white);
+  color: #c2c2c2;
+  background: var(--red-crayola);
 }
 
 .btn-secondary:is(:hover, :focus) { 
-  color: #c2c2c2;
-  background: var(--red-crayola);
+  background: var(--blue-ryb);
+  color: var(--white);
 }
 
 .section-subtitle {
@@ -355,7 +356,7 @@ body { background: var(--white); }
   opacity: 0;
 }
 
-#active{
+.active{
   color: var(--red-crayola);
 }
 
@@ -436,6 +437,7 @@ body { background: var(--white); }
     position: absolute;
     top: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     align-items: center;
@@ -452,21 +454,39 @@ body { background: var(--white); }
 .features :is(.section-subtitle, .section-title) { text-align: center; }
 
 .features-list {
-  display: grid;
-  gap: 25px;
+  display: flex;
+  
 }
 
 .features-card {
-  border: 1px solid hsl(0, 0%, 90%);
+  /* border: 5px solid hsl(0, 60%, 35%); */
   padding: 30px;
   text-align: center;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
 }
 
+
+
 .features-card .card-icon {
+  align-self: center;
   max-width: max-content;
   margin-inline: auto;
   margin-bottom: 30px;
+  width: 100px;
+  height: 100px;
+  /* transform: translateX(-10px); */
 }
+.features-card .card-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+/* .features-card .card-icon:hover img{
+  width: 150px;
+  height: 150px;
+} */
 
 .features-card .card-title { margin-bottom: 15px; }
 
@@ -503,7 +523,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .service {
-  background: #0e0533;
+  background: url(/assets/images/starry-night-bg-2.jpg) no-repeat;
   padding-block: var(--section-padding);
 }
 

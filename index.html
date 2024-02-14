@@ -27,7 +27,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"rel="stylesheet">
 
-   <!--Font Awesome CDN-->
+  <!--Font Awesome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+   <!--AOS-->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -54,7 +59,7 @@
           <ul class="navbar-list">
 
             <li>
-              <a href="#home" class="navbar-link"  data-navbar-link id="active" >Home</a>
+              <a href="#home" class="navbar-link"  data-navbar-link class="active" >Home</a>
             </li>
 
             <li>
@@ -111,15 +116,13 @@
 
           <div class="hero-content">
 
-            <h2 class="h1 hero-title">Secure IT solutions for a more secure environment</h2>
+            <h2 class="h1 hero-title" data-aos="fade-up" >Web Design and Development</h2>
 
-            <p class="section-text">
-              Velit hendrerit sit auctor tempor sem. Congue mi tempor condimentum felis arcu, non cursus. Nulla pharetra
-              porttitor sed
-              platea arcu et leo odio.
+            <p class="section-text" data-aos="fade-up" >
+             Grow your business now...
             </p>
 
-            <button class="btn btn-primary">
+            <button class="btn btn-primary" data-aos="zoom-in">
               <span>Get Started Now</span>
               <ion-icon name="chevron-forward-outline"></ion-icon>
             </button>
@@ -149,35 +152,36 @@
             </defs>
           </svg>
           <div class="gradients-container">
-            <div class="g1"></div>
-            <div class="g2"></div>
-            <div class="g3"></div>
+            <!-- <div class="g1"></div> -->
+            <!-- <div class="g2"></div> -->
+            <!-- <div class="g3"></div> -->
             <div class="g4"></div>
-            <div class="g5"></div>
+            <!-- <div class="g5"></div> -->
             <div class="interactive"></div>
           </div>
         </div>
         <section class="features" id="features">
+          <p class="section-subtitle" data-aos="fade-up"  >How Can We Help You?</p>
+          <h2 class="h2 section-title" data-aos="fade-down"  >We’re helping teams do their best work</h2>
           <div class="container">
             
-            <p class="section-subtitle">How Can Help You</p>
   
-            <h2 class="h2 section-title">We’re helping teams do their best work</h2>
   
-            <ul class="features-list">
+            <ul class="features-list" data-aos="zoom-in"  >
   
               <li>
                 <div class="features-card">
   
                   <div class="card-icon">
-                    <img src="./assets/images/features-icon-1.png" alt="Illustration icon" width="82px" height="82px"
+                    <img src="./assets/images/features-icon-1.png" alt="Illustration icon" 
                     style="object-fit:contain;" >
                   </div>
   
-                  <h3 class="h3 card-title">Zero Configuration</h3>
+                  <h3 class="h3 card-title">Web Development</h3>
   
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
+                    Elevate your online presence with custom-designed websites tailored to your
+                    brand's identity and objectives.
                   </p>
   
                   <a href="#" class="card-link">
@@ -197,10 +201,11 @@
                     style="object-fit:contain;" >
                   </div>
   
-                  <h3 class="h3 card-title">Code Security</h3>
+                  <h3 class="h3 card-title">Automation Solutions</h3>
   
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
+                    Streamline your business process with our automation solutions. We will empower
+                    your team to focus on what matters most while reducing manual efforts and errors
                   </p>
   
                   <a href="#" class="card-link">
@@ -220,10 +225,11 @@
                     style="object-fit:contain;" >
                   </div>
   
-                  <h3 class="h3 card-title">Team Management</h3>
+                  <h3 class="h3 card-title">E-commerce Development</h3>
   
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
+                    Transform your online store into a revenue-generating powerhouse with our
+                    e-commerce development enterprise.
                   </p>
   
                   <a href="#" class="card-link">
@@ -235,7 +241,7 @@
                 </div>
               </li>
   
-              <li>
+              <!-- <li>
                 <div class="features-card">
   
                   <div class="card-icon">
@@ -256,7 +262,7 @@
                   </a>
   
                 </div>
-              </li>
+              </li> -->
   
             </ul>
   
@@ -276,18 +282,21 @@
 
       <section class="service" id="service">
         <div class="container">
-
-          <figure class="service-banner">
+          
+          <figure class="service-banner" 
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"  >
             <img src="./assets/images/green-cloud.svg" alt="Illustration art" loading="lazy" class="w-100">
           </figure>
 
           <div class="service-content">
 
-            <p class="section-subtitle">Services We Offer</p>
+            <p class="section-subtitle" data-aos="fade-in" >Services We Offer</p>
 
-            <h2 class="h2 section-title">We are here, to help your startup business</h2>
+            <h2 class="h2 section-title" data-aos="fade-down" >We are here, to help your startup business</h2>
 
-            <ul class="service-list">
+            <ul class="service-list" data-aos="zoom-in-up" >
 
               <li class="service-item">
 
@@ -333,17 +342,17 @@
 
           </div>
 
-          <figure class="service-banner">
+          <figure class="service-banner"data-aos="zoom-out-up" >
             <img src="./assets/images/web-des.svg" alt="Illustration art" loading="lazy" class="w-100">
           </figure>
 
           <div class="service-content">
 
-            <p class="section-subtitle">Our Services</p>
+            <p class="section-subtitle" data-aos="fade-in" >Our Services</p>
 
-            <h2 class="h2 section-title">Best IT & technology service in your area</h2>
+            <h2 class="h2 section-title" data-aos="fade-down" >Best IT & technology service in your area</h2>
 
-            <ul class="service-list">
+            <ul class="service-list" data-aos="zoom-in-up" >
 
               <li class="service-item">
 
@@ -402,11 +411,11 @@
       <section class="team" id="team">
         <div class="wrapper">
           
-          <video class="video-bg" autoplay muted loop plays-inline >
-            <source src="./vid/Old FIlm Grain_Overlay.mp4" type="video/mp4">
+           <video class="video-bg" autoplay muted loop plays-inline >
+            <source src="./vid/Star_background.mp4" type="video/mp4">
           </video>
           
-          <div class="title">
+          <div class="title" data-aos="zoom-in-up">
               <h4>The Team</h4>
           </div>
   
@@ -523,20 +532,20 @@
       <section class="newsletter" id="newsletter">
         <div class="container">
 
-          <figure class="newsletter-banner">
+          <figure class="newsletter-banner" data-aos="zoom-in-down" data-aos-easing="ease-in-sine" >
             <img src="./assets/images/mailbox.svg" alt="Illustration art" loading="lazy" class="w-100">
           </figure>
 
           <div class="newsletter-content">
 
-            <p class="section-subtitle">Subscribe Our Newsletter</p>
+            <p class="section-subtitle" data-aos="zoom-out" >Subscribe Our Newsletter</p>
 
-            <h2 class="h2 section-title">The latest resources, sent to your inbox weekly</h2>
+            <h2 class="h2 section-title" data-aos="fade-right">The latest resources, sent to your inbox weekly</h2>
 
             <form action="" class="newsletter-form">
               <input type="email" name="email" required placeholder="Enter your email address" class="input-field">
 
-              <button type="submit" class="btn btn-primary">
+              <button type="submit" class="btn btn-primary"  data-aos="zoom-in-up" >
                 <span>Subscribe Now</span>
 
                 <ion-icon name="chevron-forward-outline"></ion-icon>
@@ -599,7 +608,7 @@
       </div>
     </section> -->
     <section class="contact-page" id="contact-page">
-      <div class="container">
+      <div class="container"  data-aos="zoom-out-up">
         <div class="contact-box">
           <div class="left"></div>
           <div class="right">
@@ -624,7 +633,7 @@
     - #FOOTER
   -->
 
-  <footer class="footer">
+  <footer class="footer"  data-aos="zoom-in-down">
 
     <div class="footer-top">
       <div class="container">
@@ -799,6 +808,15 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+
+   <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 1450,
+    });
+  </script>
 </body>
 
 </html>
