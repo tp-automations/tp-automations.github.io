@@ -272,7 +272,8 @@ body { background: var(--white); }
 }
 
 .section-subtitle {
-  color: var(--black-coral);
+  /* color: var(--black-coral); */
+  color: rgb(23, 23, 23);
   font-size: var(--fs-5);
   font-weight: var(--fw-600);
   margin-bottom: 15px;
@@ -658,6 +659,7 @@ body { background: var(--white); }
   backdrop-filter: blur(15px);
   box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 255, 0.19);
   border-radius: 15px;
   transition: bottom 0.5s;
   transition-delay: 0.65s;
@@ -726,31 +728,39 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .newsletter {
-  background: var(--cultured);
+  /* background: var(--cultured); */
+  background-color: rgb(242, 242, 242);
+  color: black;
   padding-block: var(--section-padding);
 }
 
 .newsletter-banner { margin-bottom: 30px; }
 
-.newsletter .section-title { margin-bottom: 25px; }
+.newsletter .section-title { margin-bottom: 25px; 
+  color: rgb(32, 32, 32);
+}
+.btn-subscribe { 
+  background-color: rgb(60, 41, 71);
+  color: white;
+}
 
 .input-field {
-  background: var(--white);
+  /* background: var(--white); */
   outline: 1px solid hsla(0, 0%, 0%, 0.1);
-  padding: 15px 20px;
+  padding: 0px 20px;
   border-radius: var(--radius-4);
   margin-bottom: 15px;
   transition: var(--transition);
 }
 
-.input-field:hover{
+/* .input-field:hover{
   background: var(--blue-ryb);
 
-}
+} */
 
-.input-field:focus { 
+/* .input-field:focus { 
   background: var(--black-coral);
-}
+} */
 
 
 /*-----------------------------------*\
