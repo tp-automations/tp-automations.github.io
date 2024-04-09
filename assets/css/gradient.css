@@ -73,14 +73,15 @@ html, body {
   
   .gradient-bg {
     width: 100vw;
-    height: 100vh;
-    position: relative;
+    height: 100%;
+    position: absolute;
     overflow: hidden;
-    background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2));
+    /* background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2)); */
     top: 0;
     left: 0;
-  
-}
+    padding-bottom: 2em;
+    opacity: 0.6;
+  }
 svg {
   display: none;
 }
