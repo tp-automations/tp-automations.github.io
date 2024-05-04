@@ -820,7 +820,7 @@ section#contact-page .contact-box{
 	align-items: center;
 	text-align: center;
 	/* background-color: var(--black-coral); */
-  background-color: #353535;
+  /* background-color: #353535; */
 	/* box-shadow: 0px 0px 19px 5px var(--bx-sh); */ /*p*/
   /* added by promise*/
   box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.05);
